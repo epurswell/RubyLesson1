@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+# add some stuff here
+#but will GitHub see it??
+
 
 class MegaGreeter
   attr_accessor :names
