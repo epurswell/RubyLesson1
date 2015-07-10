@@ -11,7 +11,7 @@ class MegaGreeter
   # Say hi to everybody
   def say_hi
     if @names.nil?
-      puts "..."
+      puts ".hi.."
     elsif @names.respond_to?("each")
       # @names is a list of some kind, iterate!
       @names.each do |name|
@@ -24,7 +24,7 @@ class MegaGreeter
     # Say bye to everybody
   def say_bye
     if @names.nil?
-      puts "..."
+      puts ".bye.."
     elsif @names.respond_to?("join")
       # Join the list elements with commas
       puts "Goodbye #{@names.join(", ")}.  Come back soon!"
